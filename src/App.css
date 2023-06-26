@@ -1,0 +1,38 @@
+body {
+    background-image: url('./assets/backdrop-background-blank-board.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Kalam', cursive;
+    border: 20px solid rgb(61, 36, 3);
+    margin: 0px;
+    height: 100vh;
+}
+
+.header {
+    background-image: url('assets/paper.jpg');
+    width: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+ul {
+    list-style-type: none;
+}
+li {
+    background-color: yellow;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 100px;
+    width: 100px;
+}
+
+.li {
+    margin: 5px;
+}
+
+button {
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
